@@ -1,6 +1,10 @@
-
+body{
+	background-image: url("../IMG/bg13.jpg");
+    background-size: cover;
+    background-position: center;
+}
 .register-box{
-	background-color: #edece8;
+	background-color: hsla(313, 82%, 74%, 0.5);
 	position: relative;
 	margin: 0 auto;
 	width: 450px;

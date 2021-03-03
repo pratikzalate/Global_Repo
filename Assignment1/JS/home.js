@@ -7,6 +7,7 @@ if(!localStorage.getItem('users_data')) {
 // Check click on login button
 var login_btn=document.getElementById("login-btn");
 if(login_btn){
+	console.log("Login button clicked");
 	login_btn.addEventListener("click", auth_user);         // call to auth_user function
 }
 
@@ -93,7 +94,7 @@ console.log("un:"+uname+" fn:"+fname+" ln:"+lname+" add:"+address+" pass:"+passw
             localStorage.setItem("users_data",JSON.stringify(u));
             alert("Registration Successful!");
 			localStorage.setItem("LoggedInUser",uname);
-			window.location.href="profile.html";
+			window.location.href="index.html";
 
         }catch(error){
              console.log(error);
