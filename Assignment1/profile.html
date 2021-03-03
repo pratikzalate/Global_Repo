@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style-profile.css">
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+
+	<main>
+		
+		<header>
+			<div class="navbar">
+				<ul>
+				<label id="logo">Todo App</label>
+				  <li><a id="logout" href="index.html">Logout</a></li>
+				  <li><a href="profile.html">Profile</a></li>
+				  <li><a href="todo-list.html">List Todos</a></li>
+				  <li><a href="addTodo.html">Add Todo</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section >
+			<div class="profile-header heading">
+				<div><img src="IMG/userH.png"></div>
+				<h1>Hello 
+					<span id="username"> </span>
+				</h1>
+			</div>
+			<div class="userData">
+				<div class="userData-container">
+				<form>
+					<div class="data-table">
+						<div class="data-row">
+							<div class="data-cell">
+								<label>First name :</label>
+								<input id="f-name" type="text" name="f-name" >
+							</div>	
+							<div class="data-cell cell2">
+								<label> Last name :</label>
+								<input id="l-name" type="text" name="l-name" >
+							</div>	
+						</div>
+
+						<div class="data-row">
+							<div class="data-cell">
+								
+								<label > Gender :</label>	
+								<div id="gender" class="gender-radio" >
+									<input class="gender-radio-btn" id='m' type="radio" value="Male" name="gender"> <span class="gender-label">Male</span>
+									<input class="gender-radio-btn" id="f" type="radio" value="Female" name="gender"><span class="gender-label">Female</span>
+									<input class="gender-radio-btn" id="o" type="radio" value="Other" name="gender"><span class="gender-label">Other</span>
+								</div>
+
+							</div>
+
+							<div class="data-cell cell2">
+									<label>Address :</label>
+									<textarea id="address" type="text" name="address" ></textarea> 
+							</div>
+							
+						</div>
+						
+						<div class="data-row">
+							<div class="data-cell" >
+								
+								
+							</div>
+						</div>
+							
+					</div>
+					
+				</form>
+				<div class="update-info-btn " id="update-info-btn">
+					<input id="save-btn" class="p-btn" type="button" value="Save" >
+					<input id="cancle-btn" class="p-btn" type="reset" value="cancle" >
+
+				</div>
+				<div class="edit-info-btn" id="edit-info-btn" >
+					<button class="p-btn" id="edit-btn">Edit</button>
+				</div>
+			</div>
+			
+			</div>
+				
+		</section>
+	</main>
+	<script type="text/javascript" src="JS/profile.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+.userData label{
+		font-size: 25px;
+}
+
+.userData-container{
+	background-color: rgb(218, 243, 108, 0.5);
+	margin: 30px auto;
+    width: 940px;
+    padding: 50px;
+    box-sizing:content-box;
+	border: 3px solid rgb(98, 192, 153);
+	border-radius: 10px;
+}
+
+.heading h1{
+	padding-top: 15px;
+	margin-top: 0px;
+	font-size: 50px;
+	text-align: center;
+
+}
+.profile-header{
+	padding: 0px 10px;
+	position: relative;
+	margin: 15px 25px 25px;
+}
+.profile-header img{
+	display: inline-block;
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	top:0;
+	left: 400px;
+}
+.data-table{
+	margin: 0 auto;
+	display: block;
+}
+.data-row{
+	display: inline-block;
+	margin-bottom: 25px;
+	
+}
+
+.data-cell{
+	position: relative;
+	/*border: 2px solid black;*/
+	height: 50px;
+	width: 444px;
+	float: left;
+
+}
+
+.cell2{
+	margin-left: 50px; 
+}
+
+.userData-container input[type=text], .userData-container input[type=password] {
+  
+     /* padding: 12px 20px; */
+    /* margin: 8px 0px; */
+    border: 1px solid #ccc;
+    float: right;
+    width: 290px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+
+}
+
+.userData-container textarea{
+	border: 1px solid #ccc;
+	height: 130px;
+	width: 290px;
+    right: 0px;
+    position: absolute;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.gender-label{
+	font-size: 20px;	
+}
+
+.data-table label{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    position: absolute;
+}
+.gender-radio{
+	display: inline-block;
+	right: 50px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 14px;
+}
+.gender-radio-btn{
+	margin: 0 4px 0 13px; 
+}
+#edit-btn{
+
+	display: block;
+	margin: 0 auto;	
+	background-color:#984beb;
+}
+
+.update-info-btn{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.update-info-btn input{
+	margin: 0 auto;
+}
+
+.edit-info-btn{
+	margin-top:50px; 
+	display: block;
+}
+
+
+.update-info-btn{
+	display: none;
+	margin-top:50px; 
+}
+
+#save-btn{
+	background-color:#58b85d;
+	margin-right: 25px;	 
+
+}
+
+#cancle-btn{
+	background-color:#008CBA;
+	margin-left: 25px;	 
+}
+
+.p-btn{
+	font-size: 25px;
+	border-radius: 15px; 
+	height: 45px;
+	width: 120px;
+	color: white;
+}
